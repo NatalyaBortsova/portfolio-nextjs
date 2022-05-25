@@ -35,6 +35,7 @@ const kotiko = () => {
           <a data-set="goto-progect"
             href="https://natalyabortsova.github.io/Kotiko/"
             target="_blank"
+            rel="noreferrer"
             className="px-8 py-2 mt-4 mr-8"
           >
             Demo
@@ -42,6 +43,7 @@ const kotiko = () => {
           <a data-set="goto-progect"
             href="https://github.com/NatalyaBortsova/Kotiko"
             target="_blank"
+            rel="noreferrer"
             className="px-8 py-2 mt-4 mb-4"
           >
             Code

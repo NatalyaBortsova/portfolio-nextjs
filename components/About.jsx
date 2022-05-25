@@ -11,7 +11,7 @@ const About = () => {
             About
           </h2>
           <h3 className="mb-4 text text-3xl sm:text-4xl">Who I am</h3>
-          <p className="mb-4">//I am not your normal developer</p>
+          <p className="mb-4">I am not your normal developer</p>
           <p className="mb-4">
             I have spent the last 15 years in sales, working as a sales manager
             or call-center operator. I have always had a knack for technology

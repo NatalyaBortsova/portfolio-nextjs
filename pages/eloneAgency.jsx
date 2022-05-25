@@ -32,8 +32,24 @@ const eloneAgency = () => {
             interactives elements, such as smoth-scroll to anchors, scroll to
             top, burger menu, Load more.
           </p>
-          <a data-set="goto-progect" href="https://natalyabortsova.github.io/AgencyElone/" target="_blank" className="px-8 py-2 mt-4 mr-8">Demo</a>
-            <a data-set="goto-progect" href="https://github.com/NatalyaBortsova/AgencyElone" target="_blank" className="px-8 py-2 mt-4 mb-4">Code</a> 
+          <a
+            data-set="goto-progect"
+            href="https://natalyabortsova.github.io/AgencyElone/"
+            target="_blank"
+            rel="noreferrer"
+            className="px-8 py-2 mt-4 mr-8"
+          >
+            Demo
+          </a>
+          <a
+            data-set="goto-progect"
+            href="https://github.com/NatalyaBortsova/AgencyElone"
+            target="_blank"
+            rel="noreferrer"
+            className="px-8 py-2 mt-4 mb-4"
+          >
+            Code
+          </a>
           <div>
             <Link href="/#projects">
               <span className="underline text-bold cursor-pointer">Back</span>

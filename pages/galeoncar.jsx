@@ -32,16 +32,20 @@ const galeoncar = () => {
             interactives elements, such as smoth-scroll to anchors, scroll to
             top, burger menu, Load more, modals, tabs.
           </p>
-          <a data-set="goto-progect"
+          <a
+            data-set="goto-progect"
             href="https://natalyabortsova.github.io/Galeoncar/"
             target="_blank"
+            rel="noreferrer"
             className="px-8 py-2 mt-4 mr-8"
           >
             Demo
           </a>
-          <a data-set="goto-progect"
+          <a
+            data-set="goto-progect"
             href="https://github.com/NatalyaBortsova/Galeoncar"
             target="_blank"
+            rel="noreferrer"
             className="px-8 py-2 mt-4 mb-4"
           >
             Code

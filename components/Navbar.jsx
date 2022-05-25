@@ -17,7 +17,7 @@ const Navbar = () => {
     if (
       router.asPath === "/levelFitness" ||
       router.asPath === "/kotiko" ||
-      router.asPath === "/eloneAency" ||
+      router.asPath === "/eloneAgency" ||
       router.asPath === "/galeoncar" ||
       router.asPath === "/weatherApp" ||
       router.asPath === "/cryptoApp" ||
@@ -123,7 +123,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let's build something legendary together
+                Let&apos;s build something legendary together
               </p>
             </div>
           </div>
@@ -157,24 +157,24 @@ const Navbar = () => {
             </ul>
             <div className="mt-24">
               <p className="uppercase tracking-widest text-[#353199] mb-4">
-                Let's Connect
+                Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <a
                     href="https://www.linkedin.com/in/natalya-bortsova-156b6113b/"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     <FaLinkedinIn />
                   </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="https://github.com/NatalyaBortsova" target="_blank">
+                  <a href="https://github.com/NatalyaBortsova" target="_blank" rel="noreferrer">
                     <FaGithub />
                   </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <a href="mailto:natanatka31@gmail.com" target="_blank">
+                  <a href="mailto:natanatka31@gmail.com" target="_blank" rel="noreferrer">
                     <AiOutlineMail />
                   </a>
                 </div>

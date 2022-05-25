@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
@@ -19,7 +20,7 @@ const Contact = () => {
     required: { value: true, message: "Phone is required" },
     pattern: {
       value: /^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/,
-      message: "Phone must be valid"
+      message: "Phone must be valid",
     },
     minLength: { value: 10, message: "The phone is too short" },
     maxLength: { value: 13, message: "The phone is too long" },
@@ -28,9 +29,10 @@ const Contact = () => {
   const email = {
     required: { value: true, message: "Email is required" },
     pattern: {
-      value: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-      message: "Email must be valid"
-    }
+      value:
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+      message: "Email must be valid",
+    },
   };
 
   const message = {
@@ -49,10 +51,12 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
+                <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assets/contact/contact.jpg"
                   alt="send a letter"
+                  width={400}
+                  height={400}
                 />
               </div>
               <div className="mb-8">
@@ -62,7 +66,7 @@ const Contact = () => {
                 <h5 className="mb-2">Front-End Developer</h5>
                 <p>
                   I am available for frelance or full-time position. Contact me
-                  and let's talk.
+                  and let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -72,6 +76,7 @@ const Contact = () => {
                     <a
                       href="https://www.linkedin.com/in/natalya-bortsova-156b6113b/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <FaLinkedinIn />
                     </a>
@@ -80,12 +85,17 @@ const Contact = () => {
                     <a
                       href="https://github.com/NatalyaBortsova"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <FaGithub />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <a href="mailto:natanatka31@gmail.com" target="_blank">
+                    <a
+                      href="mailto:natanatka31@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <AiOutlineMail />
                     </a>
                   </div>

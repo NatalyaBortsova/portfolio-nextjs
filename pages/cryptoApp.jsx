@@ -5,7 +5,6 @@ import CryptoApp from "../public/assets/projects/coinApp.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const cryptoApp = () => {
-
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -32,9 +31,25 @@ const cryptoApp = () => {
             This Website was built by using HTML, SCSS, Javascipt. Users could
             receive actual information about crypto market. This is made
             possible with Coingecko API.
-          </p>        
-            <a data-set="goto-progect" href="https://natalyabortsova.github.io/crypto-app/" target="_blank" className="px-8 py-2 mt-4 mr-8">Demo</a>
-            <a data-set="goto-progect" href="https://github.com/NatalyaBortsova/crypto-app" target="_blank" className="px-8 py-2 mt-4 mb-4">Code</a>         
+          </p>
+          <a
+            data-set="goto-progect"
+            href="https://natalyabortsova.github.io/crypto-app/"
+            target="_blank"
+            rel="noreferrer"
+            className="px-8 py-2 mt-4 mr-8"
+          >
+            Demo
+          </a>
+          <a
+            data-set="goto-progect"
+            href="https://github.com/NatalyaBortsova/crypto-app"
+            target="_blank"
+            rel="noreferrer"
+            className="px-8 py-2 mt-4 mb-4"
+          >
+            Code
+          </a>
           <div>
             <Link href="/#projects">
               <span className="underline text-bold cursor-pointer">Back</span>

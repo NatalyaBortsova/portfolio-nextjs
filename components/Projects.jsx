@@ -23,7 +23,7 @@ const Projects = () => {
         <h2 className="uppercase tracking-widest text-[#353199] mb-6">
           Projects
         </h2>
-        <h3 className="mb-4 text text-3xl sm:text-4xl">What I've Built</h3>
+        <h3 className="mb-4 text text-3xl sm:text-4xl">What I&apos;ve Built</h3>
         <div className="grid md:grid-cols-2 gap-8 mb-4">
           <ProjectItem
             title="Level Fitness"
@@ -83,7 +83,7 @@ const Projects = () => {
         <div className="flex justify-center">
           <button
             type="button"
-            class="shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#2c24b6] to-[#2d0774] text-white p-3"
+            className="shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#2c24b6] to-[#2d0774] text-white p-3"
             onClick={loadMoreProjectsBtn}
           >
             {loadMore ? ("Less more") : ("Load more")} 

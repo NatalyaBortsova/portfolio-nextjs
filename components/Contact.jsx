@@ -47,10 +47,10 @@ const Contact = () => {
           Contact
         </h2>
         <h3 className="mb-4 text text-3xl sm:text-4xl">Get In Touch</h3>
-        <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+        <div className="grid md:grid-cols-5 gap-8">
+          <div className="col-span-3 md:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
-              <div>
+              <div className="block sm:hidden lg:block">
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assets/contact/contact.jpg"
@@ -71,8 +71,8 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase mb-4">connect with me</p>
-                <div className="flex items-center justify-between">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="w-full sm:w-[70%] md:w-full flex items-center justify-between">
+                  <div className="rounded-full shadow-lg shadow-gray-400 lg:p-6 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a
                       href="https://www.linkedin.com/in/natalya-bortsova-156b6113b/"
                       target="_blank"
@@ -81,7 +81,7 @@ const Contact = () => {
                       <FaLinkedinIn />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 lg:p-6 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a
                       href="https://github.com/NatalyaBortsova"
                       target="_blank"
@@ -90,7 +90,7 @@ const Contact = () => {
                       <FaGithub />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 lg:p-6 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a
                       href="mailto:natanatka31@gmail.com"
                       target="_blank"
@@ -99,7 +99,7 @@ const Contact = () => {
                       <AiOutlineMail />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 lg:p-6 p-5 cursor-pointer hover:scale-105 ease-in duration-300">
                     <a href="tel:380995670708">
                       <BsFillPersonLinesFill />
                     </a>

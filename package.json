@@ -2,7 +2,10 @@
   "name": "portfolio-nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://natalyabortsova.github.io/portfolio-nextjs/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -11,10 +14,15 @@
   "dependencies": {
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.31.2",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }

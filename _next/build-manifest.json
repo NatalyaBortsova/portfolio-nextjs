@@ -1,0 +1,92 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/QNpXjYmVJt8iVp1hZ8Zi_/_buildManifest.js",
+    "static/QNpXjYmVJt8iVp1hZ8Zi_/_ssgManifest.js",
+    "static/QNpXjYmVJt8iVp1hZ8Zi_/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/d64684d8-bee5b594e9850c24.js",
+      "static/chunks/281-f6d7244b3c93fd59.js",
+      "static/chunks/pages/index-2d58cf79e1fc0e25.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/css/f215706770f3c45e.css",
+      "static/chunks/pages/_app-9cff412c1998aad8.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/pages/_error-0a004b8b8498208d.js"
+    ],
+    "/cryptoApp": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/cryptoApp-dbf2d708f513c079.js"
+    ],
+    "/eloneAgency": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/eloneAgency-a2e755a805a15707.js"
+    ],
+    "/galeoncar": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/galeoncar-e66dacc8c15fe654.js"
+    ],
+    "/kotiko": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/kotiko-6ba5b4214baade24.js"
+    ],
+    "/levelFitness": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/levelFitness-a6dc151d495f0b0c.js"
+    ],
+    "/netflix": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/netflix-0b32ef3e82ced721.js"
+    ],
+    "/travelApp": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/travelApp-3b848c8a4d8e9cf3.js"
+    ],
+    "/weatherApp": [
+      "static/chunks/webpack-69bfa6990bb9e155.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-c092d128ebbfab93.js",
+      "static/chunks/78e521c3-40aecffeb236941e.js",
+      "static/chunks/pages/weatherApp-21612fd44241774c.js"
+    ]
+  },
+  "ampFirstPages": []
+}

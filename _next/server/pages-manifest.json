@@ -1,0 +1,15 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/cryptoApp": "pages/cryptoApp.html",
+  "/eloneAgency": "pages/eloneAgency.html",
+  "/galeoncar": "pages/galeoncar.html",
+  "/": "pages/index.html",
+  "/kotiko": "pages/kotiko.html",
+  "/levelFitness": "pages/levelFitness.html",
+  "/netflix": "pages/netflix.html",
+  "/travelApp": "pages/travelApp.html",
+  "/weatherApp": "pages/weatherApp.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

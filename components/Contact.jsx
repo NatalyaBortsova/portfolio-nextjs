@@ -112,6 +112,8 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form
+                action="https://getform.io/f/bc65c11e-cf65-44af-bde7-98685dcfb78d"
+                method="POST"
                 onSubmit={handleSubmit((data) => {
                   console.log(data);
                 })}

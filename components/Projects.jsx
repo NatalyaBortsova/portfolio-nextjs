@@ -30,7 +30,7 @@ const Projects = () => {
           <ProjectItem
             title="Level Fitness"
             subtitle="HTML, SCSS, Javascript, iQuery"
-            backgroundImg='../public/assets/projects/level-fitness.png'
+            backgroundImg={Level}
             projectUrl="/levelFitness"
           />
           <ProjectItem

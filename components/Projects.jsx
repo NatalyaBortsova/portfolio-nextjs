@@ -10,6 +10,7 @@ import Netflix from "../public/assets/projects/netflix.png";
 
 import ProjectItem from "./ProjectItem";
 
+const prefix = "/portfolio-nextjs"
 
 const Projects = () => {
   const [loadMore, setLoadMore] = useState(false);
@@ -29,7 +30,7 @@ const Projects = () => {
           <ProjectItem
             title="Level Fitness"
             subtitle="HTML, SCSS, Javascript, iQuery"
-            backgroundImg={Level}
+            backgroundImg={prefix + Level}
             projectUrl="/levelFitness"
           />
           <ProjectItem

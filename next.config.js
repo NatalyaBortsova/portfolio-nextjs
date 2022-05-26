@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: "akamai"
+    loader: "akamai",
+    path: "",
   },
   basePath: "/portfolio-nextjs",
   assetPrefix: "/portfolio-nextjs",

@@ -11,6 +11,7 @@ import Netflix from "../public/assets/projects/netflix.png";
 import ProjectItem from "./ProjectItem";
 
 
+
 const Projects = () => {
   const [loadMore, setLoadMore] = useState(false);
 
@@ -77,9 +78,7 @@ const Projects = () => {
                 projectUrl="/netflix"
               />
             </>
-          ) : (
-            null
-          )}
+          ) : null}
         </div>
         <div className="flex justify-center">
           <button
@@ -87,7 +86,7 @@ const Projects = () => {
             className="shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#2c24b6] to-[#2d0774] text-white p-3"
             onClick={loadMoreProjectsBtn}
           >
-            {loadMore ? ("Less more") : ("Load more")} 
+            {loadMore ? "Less more" : "Load more"}
           </button>
         </div>
       </div>

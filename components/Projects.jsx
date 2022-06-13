@@ -4,6 +4,7 @@ import Kotiko from "../public/assets/projects/kotiko.png";
 import Elone from "../public/assets/projects/eloneAgency.png";
 import Galeoncar from "../public/assets/projects/galeoncar.png";
 import TravelApp from "../public/assets/projects/travelApp.png";
+import TokarMebel from "../public/assets/projects/tokarMebel.png";
 import WeatherApp from "../public/assets/projects/weatherApp.png";
 import CryptoApp from "../public/assets/projects/coinApp.png";
 import Netflix from "../public/assets/projects/netflix.png";
@@ -52,7 +53,13 @@ const Projects = () => {
             projectUrl="/galeoncar"
           />
           {loadMore ? (
-            <>
+             <>
+             <ProjectItem
+               title="Tokar Mebel"
+               subtitle="HTML, SCSS, Javascript"
+               backgroundImg={TokarMebel}
+               projectUrl="/tokarMebel"
+             />
               <ProjectItem
                 title="Travel App"
                 subtitle="React, Javascript, CSS"

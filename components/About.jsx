@@ -26,7 +26,7 @@ const About = () => {
             Fascinated with how intricate programming can be I was quickly drawn
             to learn more. I started learning javascript and was even more
             enthused with making websites interactive. I am now spending my time
-            building projects with React JS, Firebase, and learning new
+            building projects with React JS and learning new
             technologies.
           </p>
           <Link href="/#projects">

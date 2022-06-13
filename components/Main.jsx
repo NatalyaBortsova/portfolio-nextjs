@@ -18,8 +18,7 @@ const Main = () => {
           <p className="py-4 max-w-[70%] m-auto sm:py-2">
             A passionate and self-motivated Junior Front-End Web Developer
             having an experience of building Websites with HTML, CSS and
-            JavaScript. Currently I&apos;am focused on studying React, Redux Toolkit
-            and Firebase.
+            JavaScript. Currently I&apos;am focused on studying React.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 sm:py-2">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">

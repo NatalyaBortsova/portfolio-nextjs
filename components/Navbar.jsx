@@ -22,7 +22,7 @@ const Navbar = () => {
       router.asPath === "/weatherApp" ||
       router.asPath === "/cryptoApp" ||
       router.asPath === "/travelApp" ||
-      router.asPath === "/netflix"
+      router.asPath === "/tokarMebel"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");

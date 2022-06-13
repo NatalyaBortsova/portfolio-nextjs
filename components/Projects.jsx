@@ -78,12 +78,12 @@ const Projects = () => {
                 backgroundImg={CryptoApp}
                 projectUrl="/cryptoApp"
               />
-              <ProjectItem
+              {/* <ProjectItem
                 title="Netflix"
                 subtitle="React, Javascript, Firebase, Tailwind"
                 backgroundImg={Netflix}
                 projectUrl="/netflix"
-              />
+              /> */}
             </>
           ) : null}
         </div>

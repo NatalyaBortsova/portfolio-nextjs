@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full py-16">
-        <h2 className="uppercase tracking-widest text-[#353199] mb-4">Sills</h2>
+        <h2 className="uppercase tracking-widest text-[#353199] mb-4">Skills</h2>
         <h3 className="mb-4 text text-3xl sm:text-4xl">What I can do</h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 mb-4">

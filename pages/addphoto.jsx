@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Kotiko from "../public/assets/projects/kotiko.png";
+import Addphoto from "../public/assets/projects/addphoto.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const kotiko = () => {
+const addphoto = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,11 +13,11 @@ const kotiko = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Kotiko}
-          alt="Kotiko"
+          src={Addphoto}
+          alt="AddPhoto"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10">
-          <h2 className="mb-2">Kotiko</h2>
+          <h2 className="mb-2">AddPhoto</h2>
           <h3>HTML | SCSS | Javascript</h3>
         </div>
       </div>
@@ -29,11 +29,10 @@ const kotiko = () => {
           <h3 className="mb-4 text text-3xl sm:text-4xl">Overview</h3>
           <p>
             This Website was built by using HTML, SCSS, Javascipt. I used interactives elements, such as smoth-scroll to
-            anchors, scroll to top, animations by scroll, Swiper
-            slider, validation of Forms, modals, accordion.
+            anchors, scroll to top, animations by scroll, Swiper slider, validation of Forms, modals.
           </p>
           <a data-set="goto-progect"
-            href="https://natalyabortsova.github.io/Kotiko/"
+            href="https://natalyabortsova.github.io/photoStudio/"
             target="_blank"
             rel="noreferrer"
             className="px-8 py-2 mt-4 mr-8"
@@ -41,7 +40,7 @@ const kotiko = () => {
             Demo
           </a>
           <a data-set="goto-progect"
-            href="https://github.com/NatalyaBortsova/Kotiko"
+            href="https://github.com/NatalyaBortsova/photoStudio"
             target="_blank"
             rel="noreferrer"
             className="px-8 py-2 mt-4 mb-4"
@@ -78,4 +77,4 @@ const kotiko = () => {
   );
 };
 
-export default kotiko;
+export default addphoto;

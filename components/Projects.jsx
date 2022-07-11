@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Level from "../public/assets/projects/level-fitness.png";
-import Kotiko from "../public/assets/projects/kotiko.png";
+import AddPhoto from "../public/assets/projects/addphoto.png";
 import Elone from "../public/assets/projects/eloneAgency.png";
 import Galeoncar from "../public/assets/projects/galeoncar.png";
 import TravelApp from "../public/assets/projects/travelApp.png";
 import TokarMebel from "../public/assets/projects/tokarMebel.png";
 import WeatherApp from "../public/assets/projects/weatherApp.png";
 import CryptoApp from "../public/assets/projects/coinApp.png";
-import Netflix from "../public/assets/projects/netflix.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -35,10 +34,10 @@ const Projects = () => {
             projectUrl="/levelFitness"
           />
           <ProjectItem
-            title="Kotiko"
+            title="AddPhoto"
             subtitle="HTML, SCSS, Javascript"
-            backgroundImg={Kotiko}
-            projectUrl="/kotiko"
+            backgroundImg={AddPhoto}
+            projectUrl="/addphoto"
           />
           <ProjectItem
             title="Elone Agency"
@@ -78,12 +77,7 @@ const Projects = () => {
                 backgroundImg={CryptoApp}
                 projectUrl="/cryptoApp"
               />
-              {/* <ProjectItem
-                title="Netflix"
-                subtitle="React, Javascript, Firebase, Tailwind"
-                backgroundImg={Netflix}
-                projectUrl="/netflix"
-              /> */}
+            
             </>
           ) : null}
         </div>
